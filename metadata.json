@@ -1,0 +1,23 @@
+{
+  "name": "pltraining-quest",
+  "version": "0.0.1",
+  "author": "Kevin Henner",
+  "summary": "Manage the quest gem.",
+  "license": "Apache-2.0",
+  "source": "https://github.com/puppetlabs/pltraining-quest",
+  "project_page": "https://github.com/puppetlabs/pltraining-quest",
+  "issues": "https://github.com/puppetlabs/pltraining-quest/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "CentOS",
+      "operatingsystemrelease": [
+        "7"
+      ]
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs/stdlib","version_requirement":">= 4.6.0 < 5.0.0"}
+  ],
+  "description": "Module to manage the quest gem and associated content and settings."
+}
+  
